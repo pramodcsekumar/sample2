@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body background="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg">
+<div class="corp">
+
+<a href="view.jsp">View All Records</a><br/> 
+<h1>Add Corporate User</h1>
+<form action="CorporateController" method="get">
+  
+<table>
+
+<!--  <tr><td>ID:</td><td><input type="number" name="id" required/></td></tr> -->
+<tr><td>Name:</td><td><input type="text" name="name" required/></td></tr>
+<tr><td>Address:</td><td><input type="text" name="address" required/></td></tr>
+<tr><td>PhoneNumber:</td><td><input type="tel" name="phonenumber" required/></td></tr>
+<tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>
+</table>
+<input type="hidden" name="action" value="add"/>
+</form>
+</div>
+</body>
+</html>

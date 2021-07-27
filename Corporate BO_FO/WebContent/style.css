@@ -1,0 +1,62 @@
+body
+{
+	background:no-repeate;
+	background-size:cover;
+}
+.First{
+	position:middle;
+	color:black;
+}
+
+.log{
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}	
+.corp{
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}
+.co{
+	padding:0px 0px;
+	margin:0px;
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}
+.user{
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}	
+.us{
+	padding:0px 0px;
+	margin:0px;
+	width:280px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:black;
+}			
+
+
+a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+

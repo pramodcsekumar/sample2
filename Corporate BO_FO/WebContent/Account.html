@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css"></link>
+</head>
+<body background="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg">
+<div class="corp">
+
+<a href="view2.jsp">View All Records</a><br/> 
+<h1>Add Corporate User</h1>
+<form action="AccountController" method="get">
+  
+<table>
+
+<tr><td>userId:</td><td><input type="number" name="userId"/></td></tr> 
+<tr><td>AccountNumber:</td><td><input type="number" name="AccountNumber"/></td></tr>
+<tr><td>AccountName:</td><td><input type="text" name="AccountName"/></td></tr>
+<tr><td>Branch:</td><td><input type="text" name="Branch"/></td></tr>
+<tr><td>Currency:</td><td><input type="number" name="Currency"/></td></tr>
+<tr><td>Balance:</td><td><input type="number" name="Balance"/></td></tr>
+<tr><td>UserName:</td><td><input type="tel" name="UserName"/></td></tr>
+<tr><td>password:</td><td><input type="tel" name="password"/></td></tr>
+<tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>
+</table>
+<input type="hidden" name="action" value="add"/>
+</form>
+</div>
+</body>
+</html>
